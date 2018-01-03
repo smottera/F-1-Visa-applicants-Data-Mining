@@ -1,6 +1,5 @@
 import numpy #Core math library
 
-#print(numpy.abs(-3))
 
 def QuickSort(arr):
     if len(arr) <=1:
