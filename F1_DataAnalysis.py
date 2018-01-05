@@ -22,6 +22,7 @@ data = pd.DataFrame(bigList,columns=['Name','Nationality', 'VisaType', 'Consulat
 #print(data)
 
 F1df = data[data['VisaType'].str.contains("F1")]
+
 Approveddf = data[data['Status'].str.contains("Pending")]
 
 F1Approved = pd.merge(F1df, Approveddf, how='inner')
