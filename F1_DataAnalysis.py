@@ -3,7 +3,6 @@ import numpy as np
 from tabulate import tabulate
 
 f = open("F1Visa_Database.txt",'r')
-
 bigList = []
 smallList= []
 x = 0
